@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const BASE_URL = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial";
-const API_KEY = "AIzaSyAooBfMOhOijTPqRo-LsulE9zVDv7JZskk";
+const API_KEY = "API Key";
 
 const NewDistance = async (location, destination) => {
   const { latitude, longitude } = location;
@@ -20,3 +20,4 @@ const NewDistance = async (location, destination) => {
 export default {
   NewDistance
 };
+
