@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const BASE_URL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json";
-const API_KEY = "AIzaSyAooBfMOhOijTPqRo-LsulE9zVDv7JZskk";
+const API_KEY = "API Key";
 
 const NewNearByPlace = async (location, keyword = 'Charger') => {
   const { latitude, longitude } = location;
@@ -20,3 +20,4 @@ const NewNearByPlace = async (location, keyword = 'Charger') => {
 export default {
   NewNearByPlace
 };
+
